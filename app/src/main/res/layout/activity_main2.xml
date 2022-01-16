@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="50dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="30dp"
+            android:text=" Biodata" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="-50dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="133dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/utari"
+            android:text="Botton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : Utari Suliastika"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Alamat : sembalun" />
+        <TextView
+            android:id="@+id/nim"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+
+            android:gravity="center"
+            android:text="Nim : 200602126" />
+        <TextView
+            android:id="@+id/prodi"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:gravity="center"
+            android:text="Prodi : Teknik Informatika" />
+        <TextView
+            android:id="@+id/Hobi"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:gravity="center"
+            android:text="Hobi : jalan_jalan" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
